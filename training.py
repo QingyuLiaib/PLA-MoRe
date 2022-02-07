@@ -1,7 +1,7 @@
 import torch.nn as nn
 from torch_geometric.data import DataLoader
 from utils import *
-from gin import CPA_MoRe
+from CPA_MoRe import CPA_MoRe
 
 datasets = ["davis",'kiba']
 BATCH_SIZE = 48
