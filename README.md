@@ -3,11 +3,12 @@
 CPA-MoRe is a deep-learning model to predict compound-protein binding affinity, which takes the molecular graphs of compounds,the Chemical Checker signatures of compoundsm and the one-dimensional sequences of proteins as input.
 
 ##Data
+The Chemical Checker signatures of compounds are extracted from http://
 
 ##Usage
-data.py: preprocess the data for trainiing, validation and test
-cc
-training.py: train a CPA-MoRe model
+data.py: preprocess the data for trainiing, validation and test.
+cc_datapre.py: preprocess the CC signatures of compounds.
+training.py: train a CPA-MoRe model.
 
 
 ##
